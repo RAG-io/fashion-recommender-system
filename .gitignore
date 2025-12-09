@@ -1,0 +1,22 @@
+# Ignore dataset and large files
+data/
+*.zip
+*.tar.gz
+*.h5
+*.pt
+*.weights
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# System files
+.DS_Store
+Thumbs.db
